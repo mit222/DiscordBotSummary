@@ -5,6 +5,9 @@ import os
 from datetime import datetime, timedelta
 import json
 from collections import defaultdict
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Load environment variables
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
